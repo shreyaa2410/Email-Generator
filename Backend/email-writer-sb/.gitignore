@@ -1,0 +1,77 @@
+### General ###
+.DS_Store
+*.log
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.swp
+Thumbs.db
+
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+!.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.gradle/
+build/
+
+### IDE-specific ###
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Eclipse
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+### Logs ###
+*.log
+
+### OS/Environment ###
+.env
+*.bak
+*.tmp
+
+### Database ###
+*.db
+*.sqlite
+
+### Temporary Files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+
+### Others ###
+HELP.md
