@@ -1,0 +1,22 @@
+{
+    "name": "Email Generator Assistant",
+    "description": "AI Powered email reply generator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+    "*://mail.google.com/*",
+    "http://localhost:8080/*"
+    ],
+    "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["*://mail.google.com/*"],
+      "run_at": "document_end"
+    }
+  ],
+    "action": {
+      "default_title": "Email Assitant"
+    }
+
+  }
